@@ -5,7 +5,7 @@
 
 name=python
 version=2.7.3
-release=2
+release=3
 source=(http://www.python.org/ftp/$name/$version/Python-$version.tar.xz)
 
 build () {
