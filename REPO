@@ -7,10 +7,9 @@ d:glibc
 d:nss
 d:libgmp
 d:filesystem
-d:libpthread-stubs
 f:7bf6757b34a3743450e0cd9b354a76d0:python/.md5sum
 f:1a78384e080d31e8356284bf37dca1bb:python/.footprint
-f:ee5219e8237d4482ea555b8e59653619:python/Pkgfile
+f:5637b8eb8f64023355c531e8bb1a40e8:python/Pkgfile
 f:a617c4d3fa11e0c9410ac213eb061677:gcc/gcc-nocheck-fixincludes.patch
 f:80a0e8ef86699d93efd54e7d2ec3f85a:gcc/.md5sum
 f:6b607a978de48503f8abd7d471cddccc:gcc/.footprint
@@ -58,6 +57,3 @@ f:d41d8cd98f00b204e9800998ecf8427e:filesystem/motd
 f:6cef6f5ab23244460cdf13c98e68b010:filesystem/issue
 f:568a4f93ac89f5001312b3baf38f25c1:filesystem/Pkgfile
 f:7b103e0325616227a5d615f3c8687bb8:filesystem/group
-f:ab6a129e747717cbfd3e095eee2db72e:libpthread-stubs/.md5sum
-f:d41f455a45bae132a98cd2d6cc492019:libpthread-stubs/.footprint
-f:7e42f135e86e99cb97ec7078e2521486:libpthread-stubs/Pkgfile
