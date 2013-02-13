@@ -4,13 +4,14 @@
 
 name=glibc
 version=2.16.0
-release=2
+release=3
 source=(http://ftp.gnu.org/gnu/glibc/glibc-$version.tar.xz \
 	http://crux.nu/files/distfiles/kernel-headers-3.4.11.tar.xz \
 	hosts resolv.conf nsswitch.conf host.conf ld.so.conf \
 	$name-resolv_assert.patch \
 	$name-segfault_in_strncasecmp.patch \
-	$name-strtod_integer_overflow.patch)
+	$name-strtod_integer_overflow.patch \
+        $name-regexp_buffer_overrun.patch)
 
 build() {
 	# install kernel headers
@@ -21,6 +22,7 @@ build() {
 	patch -p1 -d $name-$version -i $SRC/$name-resolv_assert.patch
 	patch -p1 -d $name-$version -i $SRC/$name-segfault_in_strncasecmp.patch
 	patch -p1 -d $name-$version -i $SRC/$name-strtod_integer_overflow.patch
+	patch -p1 -d $name-$version -i $SRC/$name-regexp_buffer_overrun.patch
 
 	mkdir build
 	cd build
