@@ -4,7 +4,7 @@
 
 name=glibc
 version=2.16.0
-release=3
+release=4
 source=(http://ftp.gnu.org/gnu/glibc/glibc-$version.tar.xz \
 	http://crux.nu/files/distfiles/kernel-headers-3.4.11.tar.xz \
 	hosts resolv.conf nsswitch.conf host.conf ld.so.conf \
