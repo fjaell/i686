@@ -4,15 +4,23 @@
 # Depends on:  nspr sqlite3
 
 name=nss
-version=3.14.2
-release=1
-source=(ftp://ftp.mozilla.org/pub/mozilla.org/security/nss/releases/NSS_3_14_2_RTM/src/$name-$version.tar.gz \
+version=3.14.3
+release=2
+source=(ftp://ftp.mozilla.org/pub/mozilla.org/security/nss/releases/NSS_3_14_3_RTM/src/$name-$version.tar.gz \
         nss-config.in nss.pc.in)
 
 build() {
     cd $name-$version
 
     local file
+
+         # Do not override CC from commands.mk
+         # CCC is unused for g++, comment out
+         # And respect system CFLAGS
+         sed -i mozilla/security/coreconf/Linux.mk \
+                 -e 's|^CC.*=.*gcc$|#&|' \
+                 -e 's|^CCC.*=.*g++$|#&|' \
+                 -e "s|^OS_CFLAGS.*= |& $CFLAGS |"
 
     export NSPR_INCLUDE_DIR=/usr/include/nspr
     export NSPR_LIB_DIR=/usr/lib
