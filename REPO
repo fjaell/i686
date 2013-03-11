@@ -48,8 +48,8 @@ f:a170609f81e2a6f72b57235a47ad1b1b:nspr/.md5sum
 f:f38c00a537ef57255c92544560d6d12c:nspr/Pkgfile
 f:2083f33e11dfe15feb7bf9bca0f6c44b:nspr/nspr.pc.in
 f:38574567f2baa72665df5d5430553457:nss/.footprint
-f:87bbfa637478fd4f6b34b40eb7db709f:nss/.md5sum
-f:e0ccc1e2cf33e1077f506bc91d5ee8d9:nss/Pkgfile
+f:b86a34110abef533a1e512912e455438:nss/.md5sum
+f:f8322645be24441ee84ab4cd40a902a4:nss/Pkgfile
 f:17226659298a9d9bb3f323186d220f6f:nss/nss-config.in
 f:4bb2893f773bb168271521e654861e29:nss/nss.pc.in
 f:1a78384e080d31e8356284bf37dca1bb:python/.footprint
