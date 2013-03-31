@@ -7,9 +7,9 @@ d:nspr
 d:nss
 d:python
 d:util-linux
-f:cd51870d5d6ddb916a2b19d087bb1f49:binutils/.footprint
-f:7766f57e1627c36c9cb99a3e827feec0:binutils/.md5sum
-f:970aa50d1fe22f5c9feb1dde78b3462f:binutils/Pkgfile
+f:78c13f640a8bcbfbe8c522c3259cfbfe:binutils/.footprint
+f:290f0fc59cc74e5a6f3af7395db8a7b9:binutils/.md5sum
+f:c6d0101803ea7684817209fa7f5f8933:binutils/Pkgfile
 f:4a99fb746ae2f3c91724105c50f08142:filesystem/.footprint
 f:ec98dde58f49c9cc108d2f7e78404440:filesystem/.md5sum
 f:568a4f93ac89f5001312b3baf38f25c1:filesystem/Pkgfile
