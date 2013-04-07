@@ -4,13 +4,16 @@
 # Depends on:  gdbm openssl bzip2 zlib sqlite3
 
 name=python
-version=2.7.3
-release=3
+version=2.7.4
+release=1
 source=(http://www.python.org/ftp/$name/$version/Python-$version.tar.xz)
 
 build () {
     cd Python-$version
     
+    # set OPT to the python default without -O3
+    # our CFLAGS are used as well
+    OPT="-Wall -Wstrict-prototypes -fwrapv" \
     ./configure --prefix=/usr \
                 --mandir=/usr/man \
                 --enable-shared \
@@ -18,7 +21,7 @@ build () {
                 --enable-ipv6 \
                 --with-dbmliborder=gdbm
 
-    make EXTRA_CFLAGS="$CFLAGS"
+    make
     make -j1 DESTDIR=$PKG install
 
     ln -sf python2.7 $PKG/usr/bin/python

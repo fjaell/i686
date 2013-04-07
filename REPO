@@ -52,9 +52,9 @@ f:b86a34110abef533a1e512912e455438:nss/.md5sum
 f:f8322645be24441ee84ab4cd40a902a4:nss/Pkgfile
 f:17226659298a9d9bb3f323186d220f6f:nss/nss-config.in
 f:4bb2893f773bb168271521e654861e29:nss/nss.pc.in
-f:1a78384e080d31e8356284bf37dca1bb:python/.footprint
-f:7bf6757b34a3743450e0cd9b354a76d0:python/.md5sum
-f:5637b8eb8f64023355c531e8bb1a40e8:python/Pkgfile
+f:b57ac860dd40be7cba2330f36e1baef6:python/.footprint
+f:5d22bb383b53c3517741a36946989ebe:python/.md5sum
+f:36903722b836af279a8535e7bbb6c8a7:python/Pkgfile
 f:1407119050ef9514b4f3af8dade69d39:util-linux/.footprint
 f:b0ba5863d769a2892840cfd758a519bc:util-linux/.md5sum
 f:ee4ede24ee15a8c13056a6b8653ca136:util-linux/Pkgfile
