@@ -1,7 +1,7 @@
 # Description: Python interpreter, version 2.7
 # URL:         http://www.python.org
 # Maintainer:  Juergen Daubert, jue at crux dot nu
-# Depends on:  gdbm openssl bzip2 zlib sqlite3
+# Depends on:  db gdbm openssl bzip2 zlib sqlite3
 
 name=python
 version=2.7.4
@@ -18,8 +18,7 @@ build () {
                 --mandir=/usr/man \
                 --enable-shared \
                 --with-threads \
-                --enable-ipv6 \
-                --with-dbmliborder=gdbm
+                --enable-ipv6 
 
     make
     make -j1 DESTDIR=$PKG install
