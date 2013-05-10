@@ -4,9 +4,9 @@
 # Depends on:  ncurses zlib
 
 name=util-linux
-version=2.22.2
+version=2.23
 release=1
-source=(http://ftp.kernel.org/pub/linux/utils/$name/v2.22/$name-$version.tar.xz)
+source=(https://www.kernel.org/pub/linux/utils/$name/v2.23/$name-$version.tar.xz)
 
 build() {
     cd $name-$version
@@ -14,7 +14,7 @@ build() {
     ./configure --prefix=/usr \
                 --mandir=/usr/man \
                 --disable-{nls,wall} \
-                --disable-{login,su,sulogin} \
+                --disable-{login,su,sulogin,runuser} \
                 --enable-{write,raw,kill}
     make
     make DESTDIR=$PKG install
