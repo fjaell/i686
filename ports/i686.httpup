@@ -1,0 +1,8 @@
+#
+# /etc/ports/i686.httpup: IA32 overlay repository for CRUX
+#
+
+ROOT_DIR=/usr/ports/i686
+URL=https://raw.github.com/fjaell/i686/master
+
+# End of file
