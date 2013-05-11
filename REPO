@@ -2,6 +2,7 @@ d:python
 d:gcc
 d:nspr
 d:util-linux
+d:prt-get
 d:binutils
 d:glibc
 d:nss
@@ -22,6 +23,12 @@ f:f38c00a537ef57255c92544560d6d12c:nspr/Pkgfile
 f:84acf48d5c3148e7c812137f636c7c07:util-linux/.md5sum
 f:b26d958b00178e365882dedb986b5664:util-linux/.footprint
 f:c2e7853bcd8d263d644aff024b41baf2:util-linux/Pkgfile
+f:4f6b710e4d2b18c70cfe5e4a593938b7:prt-get/prt-get.aliases
+f:8548879b8f233085abe848f507fd5860:prt-get/README
+f:3868134915ec8ff8471fc2a527d55b84:prt-get/.md5sum
+f:dba60fcc49188c5804c49d52fda6fcc4:prt-get/.footprint
+f:8341a0022629cf7dd2a25139891aa53d:prt-get/Pkgfile
+f:fcb58b7a7f61bf54e83180b78ddc11ee:prt-get/prt-get.conf
 f:290f0fc59cc74e5a6f3af7395db8a7b9:binutils/.md5sum
 f:78c13f640a8bcbfbe8c522c3259cfbfe:binutils/.footprint
 f:c6d0101803ea7684817209fa7f5f8933:binutils/Pkgfile
