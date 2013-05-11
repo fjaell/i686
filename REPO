@@ -1,4 +1,5 @@
 d:python
+d:pkgutils
 d:gcc
 d:nspr
 d:util-linux
@@ -12,6 +13,10 @@ d:ports
 f:5d22bb383b53c3517741a36946989ebe:python/.md5sum
 f:decf02e1d0bd9ab5725622cbf2588344:python/.footprint
 f:47e4efad7185903db33cec4f1f049272:python/Pkgfile
+f:bfed7dfe1614eac62c1c053dc0a5eec7:pkgutils/.md5sum
+f:db9fd54e3b90d74d49795b222485a2cb:pkgutils/.footprint
+f:8da117c7a648ae5e37d46853905d9521:pkgutils/pkgmk.conf
+f:dbb79e4c21420ae68225bb0a9d498a49:pkgutils/Pkgfile
 f:a617c4d3fa11e0c9410ac213eb061677:gcc/gcc-nocheck-fixincludes.patch
 f:39de39371cf18521d928f7a950adef8d:gcc/.md5sum
 f:3f95216a83085b209f6db8f36d8fccc4:gcc/.footprint
