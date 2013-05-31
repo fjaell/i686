@@ -77,5 +77,5 @@ f:decf02e1d0bd9ab5725622cbf2588344:python/.footprint
 f:5d22bb383b53c3517741a36946989ebe:python/.md5sum
 f:47e4efad7185903db33cec4f1f049272:python/Pkgfile
 f:b26d958b00178e365882dedb986b5664:util-linux/.footprint
-f:84acf48d5c3148e7c812137f636c7c07:util-linux/.md5sum
-f:c2e7853bcd8d263d644aff024b41baf2:util-linux/Pkgfile
+f:fe51cc683e0cb1cdf421727cb5c383d4:util-linux/.md5sum
+f:e466a3e51ce811c89292f711a732456c:util-linux/Pkgfile
