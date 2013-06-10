@@ -187,6 +187,9 @@ drwxr-xr-x	root/root	usr/lib/python2.7/
 -rw-r--r--	root/root	usr/lib/python2.7/_strptime.py
 -rw-r--r--	root/root	usr/lib/python2.7/_strptime.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/_strptime.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/_sysconfigdata.py
+-rw-r--r--	root/root	usr/lib/python2.7/_sysconfigdata.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/_sysconfigdata.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/_threading_local.py
 -rw-r--r--	root/root	usr/lib/python2.7/_threading_local.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/_threading_local.pyo
@@ -1335,7 +1338,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/json/
 -rw-r--r--	root/root	usr/lib/python2.7/keyword.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/keyword.pyo
 drwxr-xr-x	root/root	usr/lib/python2.7/lib-dynload/
--rw-r--r--	root/root	usr/lib/python2.7/lib-dynload/Python-2.7.4-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/lib-dynload/Python-2.7.5-py2.7.egg-info
 -rwxr-xr-x	root/root	usr/lib/python2.7/lib-dynload/_bisect.so
 -rwxr-xr-x	root/root	usr/lib/python2.7/lib-dynload/_bsddb.so
 -rwxr-xr-x	root/root	usr/lib/python2.7/lib-dynload/_codecs_cn.so
@@ -1493,9 +1496,9 @@ drwxr-xr-x	root/root	usr/lib/python2.7/lib-tk/test/test_ttk/
 -rw-r--r--	root/root	usr/lib/python2.7/lib-tk/turtle.pyo
 drwxr-xr-x	root/root	usr/lib/python2.7/lib2to3/
 -rw-r--r--	root/root	usr/lib/python2.7/lib2to3/Grammar.txt
--rw-r--r--	root/root	usr/lib/python2.7/lib2to3/Grammar2.7.4.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python2.7/lib2to3/Grammar2.7.5.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python2.7/lib2to3/PatternGrammar.txt
--rw-r--r--	root/root	usr/lib/python2.7/lib2to3/PatternGrammar2.7.4.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python2.7/lib2to3/PatternGrammar2.7.5.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python2.7/lib2to3/__init__.py
 -rw-r--r--	root/root	usr/lib/python2.7/lib2to3/__init__.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/lib2to3/__init__.pyo
@@ -3566,7 +3569,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/test/subprocessdata/
 -rw-r--r--	root/root	usr/lib/python2.7/test/testall.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/testall.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/testall.pyo
--rw-r--r--	root/root	usr/lib/python2.7/test/testbz2_bigmem.bz2
 -rw-r--r--	root/root	usr/lib/python2.7/test/testcodec.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/testcodec.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/testcodec.pyo
