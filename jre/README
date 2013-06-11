@@ -1,0 +1,12 @@
+README for Java Runtime Enironment 7
+
+REQUIREMENTS
+
+   Download the Java Runtime Environment (JRE) from
+   - http://www.oracle.com/technetwork/java/javase/downloads/index.html 
+   
+   and put the file 
+   -  jre-7u*-linux-i586.tar.gz
+   
+   into the directory defined by PKGMK_SOURCE_DIR. See pkgmk.conf(5).
+

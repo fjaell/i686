@@ -1,0 +1,22 @@
+# Description: Java 2 Runtime Kit
+# URL:         http://www.oracle.com/technetwork/java/index.html
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Packager:    Simone Rota, sip at crux dot nu
+
+name=jre
+version=1.7.0_21
+release=1
+source=(file:///$name-7u21-linux-i586.tar.gz)
+
+build(){
+    cd $name$version
+
+    install -d $PKG/usr/{bin,man,lib/$name}
+    mv man/man1 $PKG/usr/man
+    mv bin lib plugin  $PKG/usr/lib/$name
+    
+    ln -s $name $PKG/usr/lib/java
+    ln -s ../lib/java/bin/java $PKG/usr/bin/java
+    ln -s ../lib/java/bin/javaws $PKG/usr/bin/javaws
+    ln -s ../lib/java/bin/keytool $PKG/usr/bin/keytool
+}
