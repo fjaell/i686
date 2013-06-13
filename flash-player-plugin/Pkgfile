@@ -1,0 +1,15 @@
+# Description: Macromedia Flash Plugin for Firefox
+# URL: http://www.adobe.com/products/flashplayer/
+# Maintainer: Jose V Beneyto, sepen at crux dot nu
+# Packager: Matt Housh, jaeger at crux dot nu
+# Depends on:
+
+name=flash-player-plugin
+version=11.2.202.291
+release=1
+source=(http://fpdownload.macromedia.com/get/flashplayer/pdc/$version/flash-plugin-$version-release.i386.rpm)
+
+build() {
+  install -D -m 0755 usr/lib/flash-plugin/libflashplayer.so \
+    $PKG/usr/lib/mozilla/plugins/libflashplayer.so
+}
