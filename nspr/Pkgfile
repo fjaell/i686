@@ -3,7 +3,7 @@
 # Maintainer:  Fredrik Rinnestam, fredrik at rinnestam dot se
 
 name=nspr
-version=4.9.6
+version=4.10
 release=1
 source=(http://ftp.mozilla.org/pub/mozilla.org/nspr/releases/v$version/src/$name-$version.tar.gz
         $name.pc.in)
@@ -11,9 +11,9 @@ source=(http://ftp.mozilla.org/pub/mozilla.org/nspr/releases/v$version/src/$name
 build() {
     local NSPR_LIBS NSPR_CFLAGS NSPR_VERSION
 
-    cd $name-$version
+    cd $name-$version/nspr
 
-    ./mozilla/nsprpub/configure \
+    ./configure \
         --prefix=/usr \
         --libdir=/usr/lib \
         --includedir=/usr/include/nspr \
