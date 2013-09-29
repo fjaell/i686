@@ -1,4 +1,5 @@
 80b181b02ab249524ec92822c0174cf7  glibc-2.16.0.tar.xz
+3a51662cd99783b3d01ceac2dca19597  glibc-CVE-2013-4332.patch
 d4a2a19efe1e9b59b86fd15a968f7e10  glibc-regexp_buffer_overrun.patch
 7e6a5a13c37f93213db9803d9790b7de  glibc-resolv_assert.patch
 99ed7b88221475d51a073f00d7ee9c42  glibc-segfault_in_strncasecmp.patch
