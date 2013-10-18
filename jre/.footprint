@@ -38,6 +38,7 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/cmm/
 -rw-r--r--	root/root	usr/lib/jre/lib/deploy.jar
 drwxr-xr-x	root/root	usr/lib/jre/lib/deploy/
 -rw-r--r--	root/root	usr/lib/jre/lib/deploy/MixedCodeMainDialog.ui
+-rw-r--r--	root/root	usr/lib/jre/lib/deploy/MixedCodeMainDialogJs.ui
 -rw-r--r--	root/root	usr/lib/jre/lib/deploy/cautionshield.icns
 -rw-r--r--	root/root	usr/lib/jre/lib/deploy/ffjcext.zip
 -rw-r--r--	root/root	usr/lib/jre/lib/deploy/java-icon.ico
