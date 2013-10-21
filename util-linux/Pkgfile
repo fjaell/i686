@@ -4,17 +4,18 @@
 # Depends on:  ncurses zlib
 
 name=util-linux
-version=2.23.2
+version=2.24
 release=1
-source=(https://www.kernel.org/pub/linux/utils/$name/v2.23/$name-$version.tar.xz)
+source=(https://www.kernel.org/pub/linux/utils/$name/v2.24/$name-$version.tar.xz)
 
 build() {
     cd $name-$version
 
     ./configure --prefix=/usr \
                 --mandir=/usr/man \
-                --disable-{nls,wall} \
-                --disable-{login,su,sulogin,runuser} \
+                --disable-nls \
+                --disable-{login,su,sulogin,nologin} \
+                --disable-{last,mesg,wall} \
                 --enable-{write,raw,kill}
     make
     make DESTDIR=$PKG install
