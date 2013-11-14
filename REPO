@@ -57,12 +57,12 @@ f:96c4a16b4adc365442cd8cb57fda3789:libgmp/.footprint
 f:5250ebee4863d6d1c8c536634fd9f7e1:libgmp/.md5sum
 f:a2825282b99f45a15d5eb324303e01dc:libgmp/Pkgfile
 f:6564cbcadceb398176d3cef4b884f3f6:nspr/.footprint
-f:92f92386a3466620880618b4840146ef:nspr/.md5sum
-f:8464fc14cbbe766edab73a49f018a2e8:nspr/Pkgfile
+f:ccfb8c582b6cf43347a24e443f7096a6:nspr/.md5sum
+f:a78c4038e935b024646fd70b2347a188:nspr/Pkgfile
 f:2083f33e11dfe15feb7bf9bca0f6c44b:nspr/nspr.pc.in
 f:38574567f2baa72665df5d5430553457:nss/.footprint
-f:8232f4711b45dc14027d5fa8c8609658:nss/.md5sum
-f:ab2b2326093783a89f668f15a1e89b3a:nss/Pkgfile
+f:6994598f79b5126089417a8b9b334493:nss/.md5sum
+f:5bbccb9c4d5cb2039a3368631aefaf8e:nss/Pkgfile
 f:17226659298a9d9bb3f323186d220f6f:nss/nss-config.in
 f:4bb2893f773bb168271521e654861e29:nss/nss.pc.in
 f:db9fd54e3b90d74d49795b222485a2cb:pkgutils/.footprint
