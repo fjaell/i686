@@ -367,7 +367,6 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/zi/Africa/
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Africa/Gaborone
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Africa/Harare
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Africa/Johannesburg
--rw-r--r--	root/root	usr/lib/jre/lib/zi/Africa/Juba
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Africa/Kampala
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Africa/Khartoum
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Africa/Kigali
@@ -397,7 +396,6 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/zi/Africa/
 drwxr-xr-x	root/root	usr/lib/jre/lib/zi/America/
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Adak
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Anchorage
--rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Anguilla
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Antigua
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Araguaina
 drwxr-xr-x	root/root	usr/lib/jre/lib/zi/America/Argentina/
@@ -413,7 +411,6 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/zi/America/Argentina/
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Argentina/San_Luis
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Argentina/Tucuman
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Argentina/Ushuaia
--rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Aruba
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Asuncion
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Atikokan
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Bahia
@@ -442,7 +439,6 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/zi/America/Argentina/
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Dawson_Creek
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Denver
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Detroit
--rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Dominica
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Edmonton
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Eirunepe
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/El_Salvador
@@ -451,8 +447,6 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/zi/America/Argentina/
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Godthab
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Goose_Bay
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Grand_Turk
--rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Grenada
--rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Guadeloupe
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Guatemala
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Guayaquil
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Guyana
@@ -493,7 +487,6 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/zi/America/Kentucky/
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Monterrey
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Montevideo
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Montreal
--rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Montserrat
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Nassau
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/New_York
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Nipigon
@@ -526,17 +519,12 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/zi/America/North_Dakota/
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Scoresbysund
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Sitka
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/St_Johns
--rw-r--r--	root/root	usr/lib/jre/lib/zi/America/St_Kitts
--rw-r--r--	root/root	usr/lib/jre/lib/zi/America/St_Lucia
--rw-r--r--	root/root	usr/lib/jre/lib/zi/America/St_Thomas
--rw-r--r--	root/root	usr/lib/jre/lib/zi/America/St_Vincent
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Swift_Current
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Tegucigalpa
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Thule
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Thunder_Bay
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Tijuana
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Toronto
--rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Tortola
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Vancouver
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Whitehorse
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/America/Winnipeg
@@ -548,7 +536,6 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/zi/Antarctica/
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Antarctica/DumontDUrville
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Antarctica/Macquarie
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Antarctica/Mawson
--rw-r--r--	root/root	usr/lib/jre/lib/zi/Antarctica/McMurdo
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Antarctica/Palmer
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Antarctica/Rothera
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Antarctica/Syowa
@@ -732,7 +719,6 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/zi/Europe/
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Europe/Tallinn
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Europe/Tirane
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Europe/Uzhgorod
--rw-r--r--	root/root	usr/lib/jre/lib/zi/Europe/Vaduz
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Europe/Vienna
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Europe/Vilnius
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Europe/Volgograd
@@ -773,7 +759,6 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/zi/Pacific/
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Pacific/Guadalcanal
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Pacific/Guam
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Pacific/Honolulu
--rw-r--r--	root/root	usr/lib/jre/lib/zi/Pacific/Johnston
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Pacific/Kiritimati
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Pacific/Kosrae
 -rw-r--r--	root/root	usr/lib/jre/lib/zi/Pacific/Kwajalein
