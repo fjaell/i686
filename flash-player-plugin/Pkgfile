@@ -5,7 +5,7 @@
 # Depends on:
 
 name=flash-player-plugin
-version=11.2.202.335
+version=11.2.202.356
 release=1
 source=(http://fpdownload.macromedia.com/get/flashplayer/pdc/$version/flash-plugin-$version-release.i386.rpm)
 
