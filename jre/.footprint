@@ -803,7 +803,7 @@ drwxr-xr-x	root/root	usr/lib/jre/plugin/desktop/
 -rw-r--r--	root/root	usr/lib/jre/plugin/desktop/sun_java.png
 drwxr-xr-x	root/root	usr/lib/jre/plugin/i386/
 drwxr-xr-x	root/root	usr/lib/jre/plugin/i386/ns7/
--rw-r--r--	root/root	usr/lib/jre/plugin/i386/ns7/libjavaplugin_oji.so
+-rwxr-xr-x	root/root	usr/lib/jre/plugin/i386/ns7/libjavaplugin_oji.so
 drwxr-xr-x	root/root	usr/man/
 drwxr-xr-x	root/root	usr/man/man1/
 -rw-r--r--	root/root	usr/man/man1/java.1.gz
