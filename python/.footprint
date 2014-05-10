@@ -1338,7 +1338,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/json/
 -rw-r--r--	root/root	usr/lib/python2.7/keyword.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/keyword.pyo
 drwxr-xr-x	root/root	usr/lib/python2.7/lib-dynload/
--rw-r--r--	root/root	usr/lib/python2.7/lib-dynload/Python-2.7.5-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/lib-dynload/Python-2.7.6-py2.7.egg-info
 -rwxr-xr-x	root/root	usr/lib/python2.7/lib-dynload/_bisect.so
 -rwxr-xr-x	root/root	usr/lib/python2.7/lib-dynload/_bsddb.so
 -rwxr-xr-x	root/root	usr/lib/python2.7/lib-dynload/_codecs_cn.so
@@ -1496,9 +1496,9 @@ drwxr-xr-x	root/root	usr/lib/python2.7/lib-tk/test/test_ttk/
 -rw-r--r--	root/root	usr/lib/python2.7/lib-tk/turtle.pyo
 drwxr-xr-x	root/root	usr/lib/python2.7/lib2to3/
 -rw-r--r--	root/root	usr/lib/python2.7/lib2to3/Grammar.txt
--rw-r--r--	root/root	usr/lib/python2.7/lib2to3/Grammar2.7.5.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python2.7/lib2to3/Grammar2.7.6.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python2.7/lib2to3/PatternGrammar.txt
--rw-r--r--	root/root	usr/lib/python2.7/lib2to3/PatternGrammar2.7.5.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python2.7/lib2to3/PatternGrammar2.7.6.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python2.7/lib2to3/__init__.py
 -rw-r--r--	root/root	usr/lib/python2.7/lib2to3/__init__.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/lib2to3/__init__.pyo
@@ -2065,7 +2065,24 @@ drwxr-xr-x	root/root	usr/lib/python2.7/test/
 -rw-r--r--	root/root	usr/lib/python2.7/test/__init__.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/__init__.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/__init__.pyo
+drwxr-xr-x	root/root	usr/lib/python2.7/test/audiodata/
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-pcm16.aiff
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-pcm16.au
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-pcm16.wav
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-pcm24.aiff
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-pcm24.wav
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-pcm32.aiff
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-pcm32.au
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-pcm32.wav
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-pcm8.aiff
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-pcm8.au
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-pcm8.wav
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-ulaw.aifc
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiodata/pluck-ulaw.au
 -rw-r--r--	root/root	usr/lib/python2.7/test/audiotest.au
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiotests.py
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiotests.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/test/audiotests.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/test/autotest.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/autotest.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/autotest.pyo
@@ -2309,6 +2326,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/test/decimaltestdata/
 -rw-r--r--	root/root	usr/lib/python2.7/test/mp_fork_bomb.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/mp_fork_bomb.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/test/nokia.pem
+-rw-r--r--	root/root	usr/lib/python2.7/test/nullbytecert.pem
 -rw-r--r--	root/root	usr/lib/python2.7/test/nullcert.pem (EMPTY)
 -rw-r--r--	root/root	usr/lib/python2.7/test/outstanding_bugs.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/outstanding_bugs.pyc
@@ -2897,6 +2915,9 @@ drwxr-xr-x	root/root	usr/lib/python2.7/test/subprocessdata/
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_httpservers.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_httpservers.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_httpservers.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_idle.py
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_idle.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_idle.pyo
 -rwxr-xr-x	root/root	usr/lib/python2.7/test/test_imageop.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_imageop.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_imageop.pyo
@@ -2993,6 +3014,9 @@ drwxr-xr-x	root/root	usr/lib/python2.7/test/subprocessdata/
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_macpath.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_macpath.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_macpath.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_macurl2path.py
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_macurl2path.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_macurl2path.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_mailbox.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_mailbox.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_mailbox.pyo
@@ -3062,6 +3086,9 @@ drwxr-xr-x	root/root	usr/lib/python2.7/test/subprocessdata/
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_nis.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_nis.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_nis.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_nntplib.py
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_nntplib.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_nntplib.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_normalization.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_normalization.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_normalization.pyo
@@ -3302,6 +3329,9 @@ drwxr-xr-x	root/root	usr/lib/python2.7/test/subprocessdata/
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_startfile.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_startfile.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_startfile.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_stat.py
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_stat.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_stat.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_str.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_str.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_str.pyo
@@ -3335,6 +3365,9 @@ drwxr-xr-x	root/root	usr/lib/python2.7/test/subprocessdata/
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_subprocess.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_subprocess.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_subprocess.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_sunau.py
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_sunau.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/test/test_sunau.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_sunaudiodev.py
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_sunaudiodev.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/test/test_sunaudiodev.pyo
