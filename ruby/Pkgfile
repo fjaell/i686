@@ -1,0 +1,26 @@
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Description: Ruby interpreter
+# URL:         http://www.ruby-lang.org
+# Depends on:  gdbm libgmp openssl readline zlib libffi libyaml
+
+name=ruby
+version=2.1.2
+release=2
+source=(ftp://ftp.ruby-lang.org/pub/$name/2.1/$name-$version.tar.bz2
+        $name-libffi_ver_string.patch)
+
+build () {
+    cd $name-$version
+
+    # fiddle requires a 3-digit version string form libffi
+    patch -p1 -i $SRC/$name-libffi_ver_string.patch
+
+    ./configure --prefix=/usr \
+                --mandir=/usr/man \
+                --enable-shared \
+                --disable-install-doc \
+                --with-ruby-version=minor
+
+    make
+    make DESTDIR=$PKG install
+}

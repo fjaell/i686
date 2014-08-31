@@ -1,0 +1,13 @@
+diff -Nru ruby-2.1.2.orig/ext/fiddle/extconf.rb ruby-2.1.2/ext/fiddle/extconf.rb
+--- ruby-2.1.2.orig/ext/fiddle/extconf.rb	2014-06-03 10:54:39.663000000 +0200
++++ ruby-2.1.2/ext/fiddle/extconf.rb	2014-06-03 10:56:49.318000000 +0200
+@@ -7,6 +7,9 @@
+ pkg_config("libffi")
+ if ver = pkg_config("libffi", "modversion")
+   ver = ver.gsub(/-rc\d+/, '') # If ver contains rc version, just ignored.
++  while ver.split('.').size < 3
++    ver = ver + ".0"
++  end
+   $defs.push(%{-DRUBY_LIBFFI_MODVERSION=#{ '%d%03d%03d' % ver.split('.') }})
+ end
+ 
