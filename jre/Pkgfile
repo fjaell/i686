@@ -4,9 +4,9 @@
 # Packager:    Simone Rota, sip at crux dot nu
 
 name=jre
-version=1.7.0_55
+version=1.7.0_67
 release=1
-source=(file:///$name-7u55-linux-i586.tar.gz)
+source=(file:///$name-7u67-linux-i586.tar.gz)
 
 build(){
     cd $name$version
