@@ -1,3 +1,0 @@
-host=crux.nu
-collection=ports/crux-2.8/xorg/
-destination=/usr/ports/xorg
