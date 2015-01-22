@@ -1,4 +1,4 @@
-README for Java Runtime Enironment 7
+README for Java Runtime Enironment 8
 
 REQUIREMENTS
 
@@ -6,7 +6,7 @@ REQUIREMENTS
    - http://www.oracle.com/technetwork/java/javase/downloads/index.html 
    
    and put the file 
-   -  jre-7u*-linux-i586.tar.gz
+   -  jre-8u*-linux-i586.tar.gz
    
    into the directory defined by PKGMK_SOURCE_DIR. See pkgmk.conf(5).
 
