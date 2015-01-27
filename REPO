@@ -1,11 +1,6 @@
-d:openssl
 d:ruby
 d:flash-player-plugin
 d:jre
-f:8b9a6a45fa813bd69caaa7a556aa22ea:openssl/.md5sum
-f:f54578d54a927d4ac786fe2f3a87815c:openssl/.footprint
-f:91f85842d2118003ee465c34259047e6:openssl/mksslcert.sh
-f:61ed16378817168ea5e20fc04176693b:openssl/Pkgfile
 f:abde7d02fed3c679f4c12b9c46b5f533:ruby/.md5sum
 f:0ee4474675ab913e4a1ffe5583e60b12:ruby/.footprint
 f:8cf656a6c75c1290aca619706c07e2f4:ruby/Pkgfile
