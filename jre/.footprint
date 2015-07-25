@@ -55,6 +55,7 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/deploy/
 -rw-r--r--	root/root	usr/lib/jre/lib/deploy/messages_zh_TW.properties
 -rw-r--r--	root/root	usr/lib/jre/lib/deploy/mixcode_s.png
 -rw-r--r--	root/root	usr/lib/jre/lib/deploy/splash.gif
+-rw-r--r--	root/root	usr/lib/jre/lib/deploy/splash@2x.gif
 drwxr-xr-x	root/root	usr/lib/jre/lib/desktop/
 drwxr-xr-x	root/root	usr/lib/jre/lib/desktop/applications/
 -rw-r--r--	root/root	usr/lib/jre/lib/desktop/applications/sun-java.desktop
@@ -184,10 +185,12 @@ lrwxrwxrwx	root/root	usr/lib/jre/lib/i386/client/libjsig.so -> ../libjsig.so
 drwxr-xr-x	root/root	usr/lib/jre/lib/i386/jli/
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/jli/libjli.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/jvm.cfg
--rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libavplugin.so
+-rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libavplugin-53.so
+-rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libavplugin-54.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libawt.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libawt_headless.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libawt_xawt.so
+-rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libbci.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libdcpr.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libdecora_sse.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libdeploy.so
@@ -230,6 +233,7 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/i386/jli/
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libprism_common.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libprism_es2.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libprism_sw.so
+-rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libresource.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libsctp.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libsplashscreen.so
 -rwxr-xr-x	root/root	usr/lib/jre/lib/i386/libsunec.so
