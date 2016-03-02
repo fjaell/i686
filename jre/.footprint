@@ -56,6 +56,8 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/deploy/
 -rw-r--r--	root/root	usr/lib/jre/lib/deploy/mixcode_s.png
 -rw-r--r--	root/root	usr/lib/jre/lib/deploy/splash.gif
 -rw-r--r--	root/root	usr/lib/jre/lib/deploy/splash@2x.gif
+-rw-r--r--	root/root	usr/lib/jre/lib/deploy/splash_11-lic.gif
+-rw-r--r--	root/root	usr/lib/jre/lib/deploy/splash_11@2x-lic.gif
 drwxr-xr-x	root/root	usr/lib/jre/lib/desktop/
 drwxr-xr-x	root/root	usr/lib/jre/lib/desktop/applications/
 -rw-r--r--	root/root	usr/lib/jre/lib/desktop/applications/sun-java.desktop
@@ -145,7 +147,8 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/desktop/mime/packages/
 drwxr-xr-x	root/root	usr/lib/jre/lib/ext/
 -rw-r--r--	root/root	usr/lib/jre/lib/ext/cldrdata.jar
 -rw-r--r--	root/root	usr/lib/jre/lib/ext/dnsns.jar
--rw-r--r--	root/root	usr/lib/jre/lib/ext/jfxrt.jar
+-rw-r--r--	root/root	usr/lib/jre/lib/ext/jaccess.jar
+-rwxr-xr-x	root/root	usr/lib/jre/lib/ext/jfxrt.jar
 -rw-r--r--	root/root	usr/lib/jre/lib/ext/localedata.jar
 -rw-r--r--	root/root	usr/lib/jre/lib/ext/meta-index
 -rw-r--r--	root/root	usr/lib/jre/lib/ext/nashorn.jar
@@ -260,7 +263,7 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/images/icons/
 -rw-r--r--	root/root	usr/lib/jre/lib/images/icons/sun-java_HighContrast.png
 -rw-r--r--	root/root	usr/lib/jre/lib/images/icons/sun-java_HighContrastInverse.png
 -rw-r--r--	root/root	usr/lib/jre/lib/images/icons/sun-java_LowContrast.png
--rw-r--r--	root/root	usr/lib/jre/lib/javafx.properties
+-rwxr-xr-x	root/root	usr/lib/jre/lib/javafx.properties
 -rwxr-xr-x	root/root	usr/lib/jre/lib/javaws.jar
 -rwxr-xr-x	root/root	usr/lib/jre/lib/jce.jar
 -rwxr-xr-x	root/root	usr/lib/jre/lib/jexec
@@ -268,7 +271,7 @@ drwxr-xr-x	root/root	usr/lib/jre/lib/images/icons/
 drwxr-xr-x	root/root	usr/lib/jre/lib/jfr/
 -rw-r--r--	root/root	usr/lib/jre/lib/jfr/default.jfc
 -rw-r--r--	root/root	usr/lib/jre/lib/jfr/profile.jfc
--rw-r--r--	root/root	usr/lib/jre/lib/jfxswt.jar
+-rwxr-xr-x	root/root	usr/lib/jre/lib/jfxswt.jar
 -rwxr-xr-x	root/root	usr/lib/jre/lib/jsse.jar
 -rwxr-xr-x	root/root	usr/lib/jre/lib/jvm.hprof.txt
 drwxr-xr-x	root/root	usr/lib/jre/lib/locale/
