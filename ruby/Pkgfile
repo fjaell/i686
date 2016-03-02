@@ -4,15 +4,14 @@
 # Depends on:  gdbm libgmp openssl readline zlib libffi libyaml
 
 name=ruby
-version=2.1.6
+version=2.3.0
 release=1
-source=(ftp://ftp.ruby-lang.org/pub/$name/2.1/$name-$version.tar.xz)
+source=(ftp://ftp.ruby-lang.org/pub/$name/2.3/$name-$version.tar.xz)
 
 build () {
     cd $name-$version
 
     ./configure --prefix=/usr \
-                --mandir=/usr/man \
                 --enable-shared \
                 --disable-install-doc \
                 --with-ruby-version=minor
